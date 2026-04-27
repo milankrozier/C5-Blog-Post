@@ -1,4 +1,27 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap')
+
+:root {
+    --main-bg-color: #FFFFFF;
+}
+
+body {
+    background: var(--main-bg-color);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 0px
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+p {
+    text-align: left;
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+h1 {
+    color: #5393CF;
 }
